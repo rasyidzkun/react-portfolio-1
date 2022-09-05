@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-['Source_Sans_Pro'];
+    @apply bg-[#243b67]
+  }
+
+  h1 {
+    @apply font-['Libre_Baskerville']
+  }
+
+  li {
+    @apply cursor-pointer;
+    @apply px-4;
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background: #6e5dcf !important;
+}
